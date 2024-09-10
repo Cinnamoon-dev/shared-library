@@ -6,7 +6,7 @@ Repositório com a criação de shared libraries de C++ para Python.
 Criar um arquivo .cpp com as funções que se quer exportar da seguinte forma:
 
 ~~~c
-extern "C" type funcionName(type param, ...);
+extern "C" type functionName(type param, ...);
 ~~~
 
 #### 02. Compilar o arquivo
